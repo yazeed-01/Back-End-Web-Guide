@@ -63,12 +63,26 @@ There are numerous programming languages and frameworks you can use for back-end
 ## 6. Developing the Back-End
 
 ### Suggested Structure:
-1. **Create a Main Server File:** This will be the entry point of your application.
-2. **Organize Folders:**
-   - **Public:** For scripts, CSS, and images.
-   - **DB:** Contains configuration, connection files, and a models folder for database schemas.
-   - **Controllers:** For handling business logic.
-   - **Views:** For templates if you're using server-side rendering.
+1. **Create the Environment:**
+   - Before creating folders and starting development, set up your environment.
+   - Create a virtual environment (for Python) or use a similar tool for your chosen language.
+   - Install all necessary dependencies based on your project planning.
+   
+2. **Folder Structure:**
+   - **Create a Main Server File:** This will be the entry point of your application.
+   - **Organize Folders:**
+     - **Public:** For scripts, CSS, and images.
+     - **DB:** Contains configuration, connection files, and a models folder for database schemas.
+     - **Controllers:** For handling business logic.
+     - **Views:** For templates if you're using server-side rendering.
+
+3. **Database Work:**
+   - Start by setting up your database schema and configuration.
+   - Implement necessary database migrations and seed data as needed.
+
+4. **Project Development:**
+   - After setting up the database, start working on the core features and functionality of your project.
+
 
 ## Key Back-End Terms and Concepts
 1. Server
